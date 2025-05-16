@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position</title>
+
+    <style>
+        .parent {
+            border: 2px solid red;
+            width: 700px;
+            position: relative;
+        }
+        .child {
+            border: 2px solid;
+            height: 150px;
+            width: 150px;
+            font-size: 2rem;
+            text-align: center;
+            align-content: center;
+        } 
+
+        #static {
+            margin-top: 4rem;
+            background-color: green;
+            position: static;
+        }
+        #relative {
+            position: relative;
+            top: 3rem;
+            background-color: gray;
+        }
+        #absolute {
+            position: absolute;
+            background-color: yellow;
+            right: 0;
+            /* bottom: 0; */
+            top: 0;
+        }
+
+        #fixed {
+            position: fixed;
+            background-color: aqua;
+        }
+        #sticky {
+            position: sticky;
+            background-color: lightblue;
+            top: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <!-- selection => 
+    one by one => ctrl + d 
+    mutiple text selection by one click => ctrl + shift + l -->
+
+    <!-- css position types:
+    1.static ( default position)
+    2.relative (normal position) 
+    3.absolute ( relative to the nearest parent) 
+    4.fixed
+    5.sticky -->
+
+    
+    <div class="parent">
+        <div class="child" id="static">static</div>
+        <div class="child" id="relative">relative</div>
+        <div class="child" id="absolute">absolute</div>
+        <div class="child" id="fixed">fixed</div>
+    </div>
+    
+    <div class="child" id="sticky">sticky</div>
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error laboriosam tempora assumenda. Deserunt incidunt corrupti laborum magnam dolorem, ducimus tempore totam quasi quae numquam sit inventore, amet nam aut vel!
+
+ 
+    
+</body>
+</html>
