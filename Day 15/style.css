@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.search input {
+    background-color: #242526;
+    color: gray;
+    padding: 10px 0 10px 20px;
+    border: none;
+    border-radius: 1rem;
+}
+.search i {
+    margin-right: 1rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 1rem;
+}
+/* navbar ends  */
+
+/* main container starts  */
+.containter{
+    display: flex;
+}
+.sidebar {
+     width: 20%;
+    background-color: red;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.post {
+    width: 60%;
+    background-color: yellow;
+    color: black;
+}
+.rightsidebar{
+     width: 20%;
+    background-color: brown;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+/* main container ends  */
+
+
