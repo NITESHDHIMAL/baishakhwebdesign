@@ -38,22 +38,34 @@ ul {
 }
 .sidebar {
      width: 20%;
-    background-color: red;
+    /* background-color: red; */
     height: 100vh;
     position: sticky;
     top: 0;
 }
 .post {
     width: 60%;
-    background-color: yellow;
+    /* background-color: yellow; */
     color: black;
+    display: flex;
+    justify-content: center;
 }
 .rightsidebar{
      width: 20%;
-    background-color: brown;
+    /* background-color: brown; */
     height: 100vh;
     position: sticky;
     top: 0;
+}
+
+.minipost {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px; 
+    width: 400px;
+}
+.minipost img {
+    width: 100%;
 }
 
 /* main container ends  */
