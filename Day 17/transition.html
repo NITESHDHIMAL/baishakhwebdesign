@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .boxa{
+            height: 150px;
+            width: 150px;
+            background-color: green;
+
+            /* transition: ; */
+            /* transition-property: height ; */
+            transition-property: all; 
+            transition-duration: 2s;
+            /* transition-delay: 3s; */
+            transition-timing-function:cubic-bezier(0.76,-1.18, 0, 1.08);
+
+        }  
+        .boxa:hover {
+            background-color: brown;
+            cursor: pointer;
+            height: 250px;
+        }  
+
+    </style>
+</head>
+<body> 
+    <div class="boxa"></div>  
+</body>
+</html>
